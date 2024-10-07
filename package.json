@@ -4,15 +4,20 @@
   "description": "NodeMongoose-Kit is a boilerplate starter project designed to simplify the development of RESTful APIs using Node.js and Mongoose. This project provides a solid foundation for building scalable and efficient web applications, making it ideal for developers looking to quickly set up a server-side application with MongoDB integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app",
+    "test": "node tests/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "mongoose": "^8.7.0",
     "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
   }
 }
